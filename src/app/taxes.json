@@ -1,0 +1,321 @@
+[
+  { "country": "Afghanistan", "total-tax": 0.21, "last-tax-rate-year": 2020 },
+  { "country": "Albania", "total-tax": 0.67, "last-tax-rate-year": 2020 },
+  { "country": "Algeria", "total-tax": 0.35, "last-tax-rate-year": 2020 },
+  { "country": "Andorra", "total-tax": 0.78, "last-tax-rate-year": 2020 },
+  { "country": "Angola", "total-tax": 0.12, "last-tax-rate-year": 2020 },
+  {
+    "country": "Antigua and Barbuda",
+    "total-tax": 0.13,
+    "last-tax-rate-year": 2020
+  },
+  { "country": "Argentina", "total-tax": 0.77, "last-tax-rate-year": 2020 },
+  { "country": "Armenia", "total-tax": 0.44, "last-tax-rate-year": 2020 },
+  { "country": "Australia", "total-tax": 0.74, "last-tax-rate-year": 2020 },
+  { "country": "Austria", "total-tax": 0.75, "last-tax-rate-year": 2020 },
+  { "country": "Azerbaijan", "total-tax": 0.5, "last-tax-rate-year": 2020 },
+  { "country": "Bahamas", "total-tax": 0.43, "last-tax-rate-year": 2020 },
+  { "country": "Bahrain", "total-tax": 0.72, "last-tax-rate-year": 2020 },
+  { "country": "Bangladesh", "total-tax": 0.73, "last-tax-rate-year": 2020 },
+  { "country": "Barbados", "total-tax": 0.47, "last-tax-rate-year": 2018 },
+  { "country": "Belarus", "total-tax": 0.56, "last-tax-rate-year": 2020 },
+  { "country": "Belgium", "total-tax": 0.77, "last-tax-rate-year": 2020 },
+  { "country": "Belize", "total-tax": 0.35, "last-tax-rate-year": 2020 },
+  { "country": "Benin", "total-tax": 0.1, "last-tax-rate-year": 2020 },
+  { "country": "Bhutan", "total-tax": 0.08, "last-tax-rate-year": 2020 },
+  {
+    "country": "Bolivia (Plurinational State of)",
+    "total-tax": 0.36,
+    "last-tax-rate-year": 2020
+  },
+  {
+    "country": "Bosnia and Herzegovina",
+    "total-tax": 0.84,
+    "last-tax-rate-year": 2020
+  },
+  { "country": "Botswana", "total-tax": 0.52, "last-tax-rate-year": 2020 },
+  { "country": "Brazil", "total-tax": 0.82, "last-tax-rate-year": 2020 },
+  {
+    "country": "Brunei Darussalam",
+    "total-tax": 0.68,
+    "last-tax-rate-year": 2020
+  },
+  { "country": "Bulgaria", "total-tax": 0.85, "last-tax-rate-year": 2020 },
+  { "country": "Burkina Faso", "total-tax": 0.44, "last-tax-rate-year": 2020 },
+  { "country": "Burundi", "total-tax": 0.37, "last-tax-rate-year": 2020 },
+  { "country": "Cabo Verde", "total-tax": 0.19, "last-tax-rate-year": 2020 },
+  { "country": "Cambodia", "total-tax": 0.26, "last-tax-rate-year": 2020 },
+  { "country": "Cameroon", "total-tax": 0.43, "last-tax-rate-year": 2020 },
+  { "country": "Canada", "total-tax": 0.62, "last-tax-rate-year": 2020 },
+  {
+    "country": "Central African Republic",
+    "total-tax": 0.42,
+    "last-tax-rate-year": 2018
+  },
+  { "country": "Chad", "total-tax": 0.52, "last-tax-rate-year": 2020 },
+  { "country": "Chile", "total-tax": 0.8, "last-tax-rate-year": 2020 },
+  { "country": "China", "total-tax": 0.54, "last-tax-rate-year": 2020 },
+  { "country": "Colombia", "total-tax": 0.73, "last-tax-rate-year": 2020 },
+  { "country": "Comoros", "total-tax": 0.74, "last-tax-rate-year": 2020 },
+  { "country": "Congo", "total-tax": 0.27, "last-tax-rate-year": 2020 },
+  { "country": "Cook Islands", "total-tax": 0.7, "last-tax-rate-year": 2018 },
+  { "country": "Costa Rica", "total-tax": 0.54, "last-tax-rate-year": 2020 },
+  { "country": "Cote d'Ivoire", "total-tax": 0.35, "last-tax-rate-year": 2020 },
+  { "country": "Croatia", "total-tax": 0.84, "last-tax-rate-year": 2020 },
+  { "country": "Cuba", "total-tax": 0.7, "last-tax-rate-year": 2018 },
+  { "country": "Cyprus", "total-tax": 0.74, "last-tax-rate-year": 2020 },
+  { "country": "Czechia", "total-tax": 0.77, "last-tax-rate-year": 2020 },
+  {
+    "country": "Democratic People's Republic of Korea",
+    "total-tax": 0.0,
+    "last-tax-rate-year": 2020
+  },
+  {
+    "country": "Democratic Republic of the Congo",
+    "total-tax": 0.52,
+    "last-tax-rate-year": 2020
+  },
+  { "country": "Denmark", "total-tax": 0.78, "last-tax-rate-year": 2020 },
+  { "country": "Djibouti", "total-tax": 0.29, "last-tax-rate-year": 2016 },
+  { "country": "Dominica", "total-tax": 0.23, "last-tax-rate-year": 2020 },
+  {
+    "country": "Dominican Republic",
+    "total-tax": 0.44,
+    "last-tax-rate-year": 2020
+  },
+  { "country": "Ecuador", "total-tax": 0.67, "last-tax-rate-year": 2020 },
+  { "country": "Egypt", "total-tax": 0.79, "last-tax-rate-year": 2020 },
+  { "country": "El Salvador", "total-tax": 0.47, "last-tax-rate-year": 2020 },
+  {
+    "country": "Equatorial Guinea",
+    "total-tax": 0.24,
+    "last-tax-rate-year": 2020
+  },
+  { "country": "Eritrea", "total-tax": 0.55, "last-tax-rate-year": 2018 },
+  { "country": "Estonia", "total-tax": 0.88, "last-tax-rate-year": 2020 },
+  { "country": "Eswatini", "total-tax": 0.54, "last-tax-rate-year": 2020 },
+  { "country": "Ethiopia", "total-tax": 0.51, "last-tax-rate-year": 2020 },
+  { "country": "Fiji", "total-tax": 0.37, "last-tax-rate-year": 2020 },
+  { "country": "Finland", "total-tax": 0.88, "last-tax-rate-year": 2020 },
+  { "country": "France", "total-tax": 0.83, "last-tax-rate-year": 2020 },
+  { "country": "Gabon", "total-tax": 0.22, "last-tax-rate-year": 2020 },
+  { "country": "Gambia", "total-tax": 0.49, "last-tax-rate-year": 2020 },
+  { "country": "Georgia", "total-tax": 0.81, "last-tax-rate-year": 2020 },
+  { "country": "Germany", "total-tax": 0.64, "last-tax-rate-year": 2020 },
+  { "country": "Ghana", "total-tax": 0.32, "last-tax-rate-year": 2020 },
+  { "country": "Greece", "total-tax": 0.81, "last-tax-rate-year": 2020 },
+  { "country": "Grenada", "total-tax": 0.44, "last-tax-rate-year": 2018 },
+  { "country": "Guatemala", "total-tax": 0.49, "last-tax-rate-year": 2020 },
+  { "country": "Guinea", "total-tax": 0.1, "last-tax-rate-year": 2020 },
+  { "country": "Guinea-Bissau", "total-tax": 0.07, "last-tax-rate-year": 2018 },
+  { "country": "Guyana", "total-tax": 0.28, "last-tax-rate-year": 2020 },
+  { "country": "Haiti", "total-tax": 0.31, "last-tax-rate-year": 2016 },
+  { "country": "Honduras", "total-tax": 0.43, "last-tax-rate-year": 2020 },
+  { "country": "Hungary", "total-tax": 0.73, "last-tax-rate-year": 2020 },
+  { "country": "Iceland", "total-tax": 0.55, "last-tax-rate-year": 2020 },
+  { "country": "India", "total-tax": 0.58, "last-tax-rate-year": 2020 },
+  { "country": "Indonesia", "total-tax": 0.62, "last-tax-rate-year": 2020 },
+  {
+    "country": "Iran (Islamic Republic of)",
+    "total-tax": 0.16,
+    "last-tax-rate-year": 2020
+  },
+  { "country": "Iraq", "total-tax": 0.08, "last-tax-rate-year": 2020 },
+  { "country": "Ireland", "total-tax": 0.79, "last-tax-rate-year": 2020 },
+  { "country": "Israel", "total-tax": 0.83, "last-tax-rate-year": 2020 },
+  { "country": "Italy", "total-tax": 0.77, "last-tax-rate-year": 2020 },
+  { "country": "Jamaica", "total-tax": 0.43, "last-tax-rate-year": 2020 },
+  { "country": "Japan", "total-tax": 0.61, "last-tax-rate-year": 2020 },
+  { "country": "Jordan", "total-tax": 0.78, "last-tax-rate-year": 2020 },
+  { "country": "Kazakhstan", "total-tax": 0.56, "last-tax-rate-year": 2020 },
+  { "country": "Kenya", "total-tax": 0.39, "last-tax-rate-year": 2020 },
+  { "country": "Kiribati", "total-tax": 0.41, "last-tax-rate-year": 2020 },
+  { "country": "Kuwait", "total-tax": 0.19, "last-tax-rate-year": 2020 },
+  { "country": "Kyrgyzstan", "total-tax": 0.53, "last-tax-rate-year": 2020 },
+  {
+    "country": "Lao People's Democratic Republic",
+    "total-tax": 0.12,
+    "last-tax-rate-year": 2020
+  },
+  { "country": "Latvia", "total-tax": 0.8, "last-tax-rate-year": 2020 },
+  { "country": "Lebanon", "total-tax": 0.1, "last-tax-rate-year": 2020 },
+  { "country": "Lesotho", "total-tax": 0.51, "last-tax-rate-year": 2020 },
+  { "country": "Liberia", "total-tax": 0.57, "last-tax-rate-year": 2020 },
+  { "country": "Libya", "total-tax": 0.09, "last-tax-rate-year": 2020 },
+  { "country": "Lithuania", "total-tax": 0.74, "last-tax-rate-year": 2020 },
+  { "country": "Luxembourg", "total-tax": 0.68, "last-tax-rate-year": 2020 },
+  { "country": "Madagascar", "total-tax": 0.8, "last-tax-rate-year": 2020 },
+  { "country": "Malawi", "total-tax": 0.56, "last-tax-rate-year": 2020 },
+  { "country": "Malaysia", "total-tax": 0.51, "last-tax-rate-year": 2020 },
+  { "country": "Maldives", "total-tax": 0.66, "last-tax-rate-year": 2020 },
+  { "country": "Mali", "total-tax": 0.28, "last-tax-rate-year": 2020 },
+  { "country": "Malta", "total-tax": 0.78, "last-tax-rate-year": 2020 },
+  {
+    "country": "Marshall Islands",
+    "total-tax": 0.54,
+    "last-tax-rate-year": 2020
+  },
+  { "country": "Mauritania", "total-tax": 0.06, "last-tax-rate-year": 2020 },
+  { "country": "Mauritius", "total-tax": 0.81, "last-tax-rate-year": 2020 },
+  { "country": "Mexico", "total-tax": 0.68, "last-tax-rate-year": 2020 },
+  {
+    "country": "Micronesia (Federated States of)",
+    "total-tax": 0.47,
+    "last-tax-rate-year": 2020
+  },
+  { "country": "Monaco", "total-tax": 0.0, "last-tax-rate-year": 2020 },
+  { "country": "Mongolia", "total-tax": 0.45, "last-tax-rate-year": 2020 },
+  { "country": "Montenegro", "total-tax": 0.77, "last-tax-rate-year": 2020 },
+  { "country": "Morocco", "total-tax": 0.76, "last-tax-rate-year": 2020 },
+  { "country": "Mozambique", "total-tax": 0.29, "last-tax-rate-year": 2020 },
+  { "country": "Myanmar", "total-tax": 0.5, "last-tax-rate-year": 2020 },
+  { "country": "Namibia", "total-tax": 0.42, "last-tax-rate-year": 2020 },
+  { "country": "Nauru", "total-tax": 0.42, "last-tax-rate-year": 2020 },
+  { "country": "Nepal", "total-tax": 0.27, "last-tax-rate-year": 2020 },
+  {
+    "country": "Netherlands (Kingdom of the)",
+    "total-tax": 0.77,
+    "last-tax-rate-year": 2020
+  },
+  { "country": "New Zealand", "total-tax": 0.82, "last-tax-rate-year": 2020 },
+  { "country": "Nicaragua", "total-tax": 0.69, "last-tax-rate-year": 2020 },
+  { "country": "Niger", "total-tax": 0.32, "last-tax-rate-year": 2020 },
+  { "country": "Nigeria", "total-tax": 0.37, "last-tax-rate-year": 2020 },
+  { "country": "Niue", "total-tax": 0.58, "last-tax-rate-year": 2020 },
+  {
+    "country": "North Macedonia",
+    "total-tax": 0.8,
+    "last-tax-rate-year": 2020
+  },
+  { "country": "Norway", "total-tax": 0.62, "last-tax-rate-year": 2020 },
+  { "country": "Oman", "total-tax": 0.64, "last-tax-rate-year": 2020 },
+  { "country": "Pakistan", "total-tax": 0.61, "last-tax-rate-year": 2020 },
+  { "country": "Palau", "total-tax": 0.71, "last-tax-rate-year": 2020 },
+  { "country": "Panama", "total-tax": 0.57, "last-tax-rate-year": 2020 },
+  {
+    "country": "Papua New Guinea",
+    "total-tax": 0.53,
+    "last-tax-rate-year": 2020
+  },
+  { "country": "Paraguay", "total-tax": 0.18, "last-tax-rate-year": 2020 },
+  { "country": "Peru", "total-tax": 0.68, "last-tax-rate-year": 2020 },
+  { "country": "Philippines", "total-tax": 0.56, "last-tax-rate-year": 2020 },
+  { "country": "Poland", "total-tax": 0.78, "last-tax-rate-year": 2020 },
+  { "country": "Portugal", "total-tax": 0.79, "last-tax-rate-year": 2020 },
+  { "country": "Qatar", "total-tax": 0.68, "last-tax-rate-year": 2020 },
+  {
+    "country": "Republic of Korea",
+    "total-tax": 0.74,
+    "last-tax-rate-year": 2020
+  },
+  {
+    "country": "Republic of Moldova",
+    "total-tax": 0.62,
+    "last-tax-rate-year": 2020
+  },
+  { "country": "Romania", "total-tax": 0.7, "last-tax-rate-year": 2020 },
+  {
+    "country": "Russian Federation",
+    "total-tax": 0.56,
+    "last-tax-rate-year": 2020
+  },
+  { "country": "Rwanda", "total-tax": 0.64, "last-tax-rate-year": 2020 },
+  {
+    "country": "Saint Kitts and Nevis",
+    "total-tax": 0.2,
+    "last-tax-rate-year": 2018
+  },
+  { "country": "Saint Lucia", "total-tax": 0.51, "last-tax-rate-year": 2020 },
+  {
+    "country": "Saint Vincent and the Grenadines",
+    "total-tax": 0.23,
+    "last-tax-rate-year": 2020
+  },
+  { "country": "Samoa", "total-tax": 0.49, "last-tax-rate-year": 2020 },
+  { "country": "San Marino", "total-tax": 0.74, "last-tax-rate-year": 2016 },
+  {
+    "country": "Sao Tome and Principe",
+    "total-tax": 0.34,
+    "last-tax-rate-year": 2020
+  },
+  { "country": "Saudi Arabia", "total-tax": 0.74, "last-tax-rate-year": 2020 },
+  { "country": "Senegal", "total-tax": 0.38, "last-tax-rate-year": 2020 },
+  { "country": "Serbia", "total-tax": 0.77, "last-tax-rate-year": 2020 },
+  { "country": "Seychelles", "total-tax": 0.7, "last-tax-rate-year": 2020 },
+  { "country": "Sierra Leone", "total-tax": 0.23, "last-tax-rate-year": 2020 },
+  { "country": "Singapore", "total-tax": 0.67, "last-tax-rate-year": 2020 },
+  { "country": "Slovakia", "total-tax": 0.76, "last-tax-rate-year": 2020 },
+  { "country": "Slovenia", "total-tax": 0.79, "last-tax-rate-year": 2020 },
+  {
+    "country": "Solomon Islands",
+    "total-tax": 0.34,
+    "last-tax-rate-year": 2018
+  },
+  { "country": "Somalia", "total-tax": 0.07, "last-tax-rate-year": 2020 },
+  { "country": "South Africa", "total-tax": 0.53, "last-tax-rate-year": 2020 },
+  { "country": "South Sudan", "total-tax": 0.66, "last-tax-rate-year": 2020 },
+  { "country": "Spain", "total-tax": 0.78, "last-tax-rate-year": 2020 },
+  { "country": "Sri Lanka", "total-tax": 0.77, "last-tax-rate-year": 2020 },
+  { "country": "Sudan", "total-tax": 0.73, "last-tax-rate-year": 2020 },
+  { "country": "Suriname", "total-tax": 0.27, "last-tax-rate-year": 2020 },
+  { "country": "Sweden", "total-tax": 0.68, "last-tax-rate-year": 2020 },
+  { "country": "Switzerland", "total-tax": 0.6, "last-tax-rate-year": 2020 },
+  {
+    "country": "Syrian Arab Republic",
+    "total-tax": 0.42,
+    "last-tax-rate-year": 2020
+  },
+  { "country": "Tajikistan", "total-tax": 0.42, "last-tax-rate-year": 2020 },
+  { "country": "Thailand", "total-tax": 0.79, "last-tax-rate-year": 2020 },
+  { "country": "Timor-Leste", "total-tax": 0.22, "last-tax-rate-year": 2020 },
+  { "country": "Togo", "total-tax": 0.41, "last-tax-rate-year": 2020 },
+  { "country": "Tonga", "total-tax": 0.67, "last-tax-rate-year": 2020 },
+  {
+    "country": "Trinidad and Tobago",
+    "total-tax": 0.26,
+    "last-tax-rate-year": 2020
+  },
+  { "country": "Tunisia", "total-tax": 0.7, "last-tax-rate-year": 2020 },
+  { "country": "Turkiye", "total-tax": 0.85, "last-tax-rate-year": 2020 },
+  { "country": "Turkmenistan", "total-tax": 0.42, "last-tax-rate-year": 2020 },
+  { "country": "Tuvalu", "total-tax": 0.39, "last-tax-rate-year": 2020 },
+  { "country": "Uganda", "total-tax": 0.35, "last-tax-rate-year": 2020 },
+  { "country": "Ukraine", "total-tax": 0.69, "last-tax-rate-year": 2020 },
+  {
+    "country": "United Arab Emirates",
+    "total-tax": 0.73,
+    "last-tax-rate-year": 2020
+  },
+  {
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "total-tax": 0.79,
+    "last-tax-rate-year": 2020
+  },
+  {
+    "country": "United Republic of Tanzania",
+    "total-tax": 0.3,
+    "last-tax-rate-year": 2020
+  },
+  {
+    "country": "United States of America",
+    "total-tax": 0.4,
+    "last-tax-rate-year": 2020
+  },
+  { "country": "Uruguay", "total-tax": 0.66, "last-tax-rate-year": 2020 },
+  { "country": "Uzbekistan", "total-tax": 0.56, "last-tax-rate-year": 2020 },
+  { "country": "Vanuatu", "total-tax": 0.53, "last-tax-rate-year": 2020 },
+  {
+    "country": "Venezuela (Bolivarian Republic of)",
+    "total-tax": 0.73,
+    "last-tax-rate-year": 2020
+  },
+  { "country": "Viet Nam", "total-tax": 0.39, "last-tax-rate-year": 2020 },
+  { "country": "Yemen", "total-tax": 0.51, "last-tax-rate-year": 2020 },
+  { "country": "Zambia", "total-tax": 0.39, "last-tax-rate-year": 2020 },
+  { "country": "Zimbabwe", "total-tax": 0.29, "last-tax-rate-year": 2020 },
+  {
+    "country": "occupied Palestinian territory, including east Jerusalem",
+    "total-tax": 0.93,
+    "last-tax-rate-year": 2020
+  }
+]
