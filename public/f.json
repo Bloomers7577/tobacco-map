@@ -128,7 +128,7 @@
           "type": "Polygon",
           "arcs": [[101, 102, 103, 104, -31]],
           "id": "BOL",
-          "properties": { "name": "Bolivia" }
+          "properties": { "name": "Bolivia (Plurinational State of)" }
         },
         {
           "type": "Polygon",
@@ -245,7 +245,7 @@
             ]
           ],
           "id": "COD",
-          "properties": { "name": "Democratic Republic of Congo" }
+          "properties": { "name": "Democratic Republic of the Congo" }
         },
         {
           "type": "Polygon",
@@ -898,7 +898,7 @@
             [[618]]
           ],
           "id": "RUS",
-          "properties": { "name": "Russia" }
+          "properties": { "name": "Russian Federation" }
         },
         {
           "type": "Polygon",
@@ -1076,7 +1076,7 @@
             ]
           ],
           "id": "TZA",
-          "properties": { "name": "Tanzania" }
+          "properties": { "name": "United Republic of Tanzania" }
         },
         {
           "type": "Polygon",
@@ -1116,7 +1116,7 @@
             [[-144, 702, -142, 703]]
           ],
           "id": "USA",
-          "properties": { "name": "United States" }
+          "properties": { "name": "United States of America" }
         },
         {
           "type": "Polygon",
@@ -1128,7 +1128,7 @@
           "type": "Polygon",
           "arcs": [[704, -349, -109, -234]],
           "id": "VEN",
-          "properties": { "name": "Venezuela" }
+          "properties": { "name": "Venezuela (Bolivarian Republic of)" }
         },
         {
           "type": "Polygon",

@@ -125,6 +125,9 @@ const MapChart = () => {
                     }}
                     key={geo.rsmKey}
                     geography={geo}
+                    stroke="#E4E5E6"
+                    strokeWidth={0.1}
+                    strokeOpacity={0.2}
                     fill={
                       hoverCountry?.["total-tax"]
                         ? colorScale(hoverCountry?.["total-tax"])
