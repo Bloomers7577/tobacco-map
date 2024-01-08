@@ -10,50 +10,77 @@ import {
   Graticule,
   ZoomableGroup,
 } from "react-simple-maps";
-import taxes from "../taxes.json";
+import taxes from "../../tax.json";
 import { Tooltip } from "./Tooltip";
 
 type ArrayElement<ArrayType extends readonly unknown[]> =
   ArrayType extends readonly (infer ElementType)[] ? ElementType : never;
 
+const headerStyle = {
+  background: "rgb(47, 47, 47)",
+  padding: "10px",
+  color: "white",
+};
+
+function capitalizeFirstLetter(string: string) {
+  return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
+const textColor = (text?: string | null) => {
+  const text2 = text?.toLowerCase().trim() ?? "unknown";
+  let className: string;
+
+  if (text2 === "yes") {
+    className = "text-green-500";
+  } else if (text2 === "no") {
+    className = "text-red-500";
+  } else className = "text-black";
+
+  return <span className={className}>{capitalizeFirstLetter(text2)}</span>;
+};
+
 const geoUrl = "/f.json";
 
-const colorScale = scaleLinear<string>()
-  .domain([0, 1])
-  .range(["#ffedea", "#ff5233"]);
+const colorScale = (num: number, a = "#ffedea", b = "#ff5233") =>
+  scaleLinear<string>().domain([0, 1]).range([a, b])(num);
 
-const MapChart = () => {
-  const countryChecked = useRef<boolean>(false);
-  const [visibility, setVisibility] = useState(false);
+const renderContent = (input: ArrayElement<typeof taxes> | undefined) => {
+  const listItemStyle = {
+    marginBottom: "3px",
+  };
 
-  const [country, setCountry] = useState<
-    ArrayElement<typeof taxes> | undefined
-  >(undefined);
-
-  const renderContent = (input: ArrayElement<typeof taxes> | undefined) => {
-    const data = {
-      ...input,
-      effectiveTaxRate: input?.["total-tax"] ?? "unknown",
-      LastTaxRateYear: input?.["last-tax-rate-year"] ?? "unknown",
-    };
-
-    return (
-      <>
-        <div style={headerStyle}>{data.country ?? "unknown"}</div>
-        <ul style={listStyle}>
-          <li style={listItemStyle}>
-            Effective tax rate: {data.effectiveTaxRate}
-          </li>
-          {/* <li style={listItemStyle}>
-            Rely on a uniform specific excise tax: {data.relyOnUniformExciseTax}
-          </li>
-          <li style={listItemStyle}>
-            Inflation adjustment mechanism: {data.inflationAdjustment}
-          </li>
-          <li style={listItemStyle}>
-            Stamp/marking system: {data.markingSystem}
-          </li>
-          <li style={listItemStyle}>
+  return (
+    <>
+      <div style={headerStyle}>{input?.country ?? "Unknown"}</div>
+      <ul className="list-none p-2.5 m-0">
+        <li
+          style={{
+            marginBottom: "3px",
+          }}
+        >
+          Effective tax rate:{" "}
+          <span
+            style={{
+              color: input?.TotalTax
+                ? colorScale(1 - input?.TotalTax, "green", "red")
+                : "black",
+            }}
+          >
+            {input?.TotalTax ?? "Unknwon"}
+          </span>
+        </li>
+        <li>
+          Rely on a uniform specific excise tax:{" "}
+          {textColor(input?.RelayOnSpecificExcise ? "Yes" : "No")}
+        </li>
+        <li style={listItemStyle}>
+          Inflation adjustment mechanism:{" "}
+          {textColor(input?.inflationAdjustment)}
+        </li>
+        <li style={listItemStyle}>
+          Stamp/marking system: {textColor(input?.taxStamps)}
+        </li>
+        {/* <li style={listItemStyle}>
             % GDP per capita to buy: {data.gdpPerCapita}
           </li>
           <li style={listItemStyle}>
@@ -62,26 +89,18 @@ const MapChart = () => {
           <li style={listItemStyle}>
             Tobacconomics global ranking: {data.tobacconomicsRanking}
           </li> */}
-        </ul>
-      </>
-    );
-  };
+      </ul>
+    </>
+  );
+};
 
-  const headerStyle = {
-    background: "rgb(47, 47, 47)",
-    padding: "10px",
-    color: "white",
-  };
+const MapChart = () => {
+  const countryChecked = useRef<boolean>(false);
+  const [visibility, setVisibility] = useState(false);
 
-  const listStyle = {
-    listStyleType: "none",
-    padding: "10px",
-    margin: 0,
-  };
-
-  const listItemStyle = {
-    marginBottom: "3px",
-  };
+  const [country, setCountry] = useState<
+    ArrayElement<typeof taxes> | undefined
+  >(undefined);
 
   return (
     <div className="min-w-full outline outline-1">
@@ -126,11 +145,11 @@ const MapChart = () => {
                     key={geo.rsmKey}
                     geography={geo}
                     stroke="#E4E5E6"
-                    strokeWidth={0.1}
+                    strokeWidth={0.15}
                     strokeOpacity={0.2}
                     fill={
-                      hoverCountry?.["total-tax"]
-                        ? colorScale(hoverCountry?.["total-tax"])
+                      hoverCountry?.TotalTax
+                        ? colorScale(1 - hoverCountry?.TotalTax)
                         : "#F5F4F6"
                     }
                   />
